@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "idroid";
+    src: url("../fontes/idroid.otf");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+    text-align: justify;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(#3BD47F, #2EA764, #217346, #195937);
+    margin: 0px;
+    box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.281);
+}
+
+header > h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+    margin: 0px;
+}
+
+header > p {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: lightgreen;
+}
+
+main {
+    background-color: white;
+    box-shadow: 0px 4px 7px 4px rgba(0, 0, 0, 0.308);
+    width: 810px;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+}
+
+
+section#introducao > h1{
+    color: darkgreen;
+    font-family: "idroid", "Arial", "sans-serif";
+    font-size: 2em;
+}
+
+section#introducao > p{
+    text-indent: 25px;
+}
+
+section#primeiraversao > p{
+    text-indent: 25px;
+}
+
+section#primeiraversao > p > a{
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+section#primeiraversao > p > a:hover{
+    text-decoration: underline;
+    color: lightgreen;
+}
+
+div#bugdroid {
+    text-align: center;
+}
+
+.enfeite {
+    font-family: "idroid", "Arial", "sans-serif";
+    color: darkgreen;
+    background-color: rgba(144, 238, 144, 0.384);
+}
+
+aside {
+    background-color: lightgreen;
+    border-radius: 15px;
+    padding: 0px 10px 10px 10px;
+    box-shadow: 3px 2px 4px 2px rgba(0, 0, 0, 0.247);
+}
+
+aside > h3{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    border-radius: 20px;
+}
+
+aside > p{
+    text-indent: 25px;
+}
+
+aside > div#listapart1 {
+    display: inline-block;
+    margin-right: 100px;
+    text-decoration: underline;
+}
+
+aside > div#listapart2 {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+footer > p{
+    text-indent: 25px;
+}
+
+p#finalizacao {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
