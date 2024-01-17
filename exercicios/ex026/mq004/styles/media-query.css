@@ -1,0 +1,67 @@
+@charset 'UTF-8';
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Esse site foi feita através do site www.site.com.br';
+        text-decoration: underline;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    img#iphone { display: none; }
+    img#itablet { display: none; }
+    img#iprint { display: block; }
+    img#ipc { display: none; }
+    img#itv { display: none; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#iphone { display: none; }
+    img#itablet { display: block; }
+    img#iprint { display: none; }
+    img#ipc { display: none; }
+    img#itv { display: none; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#iphone { display: none; }
+    img#itablet { display: none; }
+    img#iprint { display: none; }
+    img#ipc { display: block; }
+    img#itv { display: none; }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#iphone { display: none; }
+    img#itablet { display: none; }
+    img#iprint { display: none; }
+    img#ipc { display: none; }
+    img#itv { display: block; }
+}
