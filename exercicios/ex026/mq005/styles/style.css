@@ -19,7 +19,7 @@ header > h1 {
     text-align: center;
 }
 
-i#iburger {
+i#iburguer {
     background-color: rgb(39, 39, 39);
     color: white;
     display: block;
@@ -28,7 +28,7 @@ i#iburger {
     cursor: pointer;
 }
 
-i#iburger:hover {
+i#iburguer:hover {
     background-color: white;
     color: black;
 }
